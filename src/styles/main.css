@@ -77,8 +77,13 @@ nav {
   display: flex;
   justify-content: center;
 }
-.hero img {
+.hero picture {
   width: 100%;
+}
+
+.hero picture img {
+  width: 100% !important;
+  height: 100%;
 }
 
 .hero-description {
