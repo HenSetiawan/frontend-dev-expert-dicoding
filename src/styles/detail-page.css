@@ -1,0 +1,97 @@
+.detail-img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.restaurant-info {
+  list-style: none;
+}
+
+.restaurant-info li {
+  border-bottom: 1px solid black;
+  padding: 8px;
+}
+
+.menu {
+  text-align: center;
+}
+
+.category {
+  padding: 5px;
+  background-color: black;
+  color: white;
+  margin-right: 2px;
+  border-radius: 8px;
+}
+
+.card-review{
+  border: 1px solid black;
+  border-radius: 8px;
+  padding:10px;
+  margin-top: 5px;
+  font-family: "Philosopher", sans-serif;
+}
+
+.review-header{
+  display: flex;
+  justify-content:space-between;
+  border-bottom: 1px solid black;
+}
+
+.review-body{
+  padding: 15px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.btn-like {
+  font-size: 18px;
+  position: fixed;
+  bottom: 16px;
+  right: 16px;
+  background-color: #db0000;
+  color: white;
+  border: 0;
+  border-radius: 50%;
+  width: 55px;
+  height: 55px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+@media only screen and (min-width: 600px) {
+  menu-list {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  menu-list div{
+    width: 45%;
+  }
+
+  info-cafe {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .restaurant img {
+    width: 45%;
+  }
+
+  .restaurant ul {
+    width: 45%;
+  }
+
+  .reviews {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  review-card {
+    width: 33%;
+  }
+}

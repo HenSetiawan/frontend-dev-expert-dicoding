@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+/* Header and Nav style */
+header ul li {
+  margin: 0px 25px;
+  list-style: none;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.brand {
+  margin-top: 15px;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 20px;
+  font-family: 'Mulish', sans-serif;
+}
+.brand p {
+  margin-left: 10px;
+}
+
+.menu-icon {
+  margin: 15px 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+}
+
+.nav-link {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  opacity: 0;
+  height: 0;
+}
+
+.nav-link.active {
+  opacity: 1 !important;
+  height: 100%;
+}
+
+.link {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 18px;
+  height: 44px;
+  line-height: 44px;
+  margin-top: 15px;
+  display: block;
+  font-family: 'Mulish', sans-serif;
+}
+
+/* hero section */
+.hero {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.hero img {
+  width: 100%;
+}
+
+.hero-description {
+  position: absolute;
+  color: #fff;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.hero h1 {
+  margin-top: 50px;
+  font-weight: 800;
+}
+
+.hero P {
+  width: 80%;
+  font-weight: 400;
+  margin: auto;
+  padding: 3px;
+}
+
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background-color: #bf1722;
+  color: white;
+  padding: 8px;
+  z-index: 100;
+}
+
+.skip-link:focus {
+  top: 0;
+}
+/* cafe list style */
+.cafe {
+  margin-top: 20px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.card {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-top-left-radius: 80px;
+  padding: 10px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.card a {
+  text-decoration: none;
+  color: black;
+}
+
+.card img {
+  width: 100%;
+  overflow: hidden;
+  border-top-left-radius: 80px;
+  height: 270px;
+  object-fit: cover;
+  object-position: center;
+}
+
+footer {
+  margin: auto;
+  width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+  }
+  .hero {
+    height: 600px;
+  }
+  .hero h1 {
+    margin-top: 200px;
+  }
+
+  .menu-icon {
+    display: none;
+  }
+
+  .nav-link {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    opacity: 1;
+    height: 100%;
+  }
+
+  jumbotron-element {
+    font-size: 2em;
+  }
+
+  .list-menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  cafe-card {
+    width: 30%;
+  }
+}

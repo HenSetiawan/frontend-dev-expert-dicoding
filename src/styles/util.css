@@ -1,0 +1,51 @@
+.btn {
+  background-color: #dc780b;
+  color: #fff;
+  height: 44px;
+  display: inline-block;
+  line-height: 40px;
+  padding: 0 15px;
+  text-decoration: none;
+  margin: 10px 0;
+}
+
+
+.text-medium {
+  font-family: "Philosopher", sans-serif;
+  font-weight: 700;
+  font-size: 1.5em;
+  margin-top: 5px;
+}
+
+.text-secondary {
+  font-family: "Roboto", sans-serif;
+  color: #7a7977;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  font-size: 1em;
+}
+
+.text-primary {
+  font-family: "Philosopher", sans-serif;
+  font-weight: 700;
+  font-size: 2em;
+  margin-top: 5px;
+}
+
+.text-title {
+  color: #dc780b;
+  font-family: "Roboto", sans-serif;
+  font-size: 1em;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.mt-2 {
+  margin-top: 2em;
+}
+
+.pd-2 {
+  padding: 2em;
+}
